@@ -25,8 +25,7 @@ pipeline {
                             -Dsonar.projectKey=bhoyarkunal_spring-petclinic-devops \
                             -Dsonar.organization=bhoyarkunal \
                             -Dsonar.host.url=https://sonarcloud.io \
-                            -Dsonar.login=$SONAR_TOKEN
-                        """
+                            -Dsonar.login=$SONAR_TOKEN"""
                     }
                 }
             }
